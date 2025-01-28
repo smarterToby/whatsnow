@@ -25,24 +25,24 @@ This project is a simple yet effective web application that allows users to star
 ## Installation
 
 1. Clone the repository:
-   \`\`\`
+   ```bash
    git clone https://github.com/smarterToby/whatsnow.git
-   \`\`\`
+   ```
 
 2. Navigate to the project directory:
-   \`\`\`
-   cd whatsapp-redirect
-   \`\`\`
+   ```bash
+   cd whatsnow
+   ```
 
 3. Install the dependencies:
-   \`\`\`
+   ```bash
    bun install
-   \`\`\`
+   ```
 
 4. Start the development server:
-   \`\`\`
+   ```bash
    bun dev
-   \`\`\`
+   ```
 
 5. Open [http://localhost:3000](http://localhost:3000) in your browser to view the application.
 
