@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
@@ -12,10 +12,29 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+const metaKeywords: string[] = [
+  "WhatsApp chat starter",
+  "Direct WhatsApp messages",
+  "WhatsApp without saving contacts",
+  "Quick messages WhatsApp",
+  "WhatsApp link generator",
+  "WhatsApp web tool",
+  "WhatsApp chat without saving",
+  "WhatsApp direct message",
+  "WhatsApp number chat",
+  "Simplify WhatsApp communication",
+  "Start WhatsApp chat with number"
+];
+
 export const metadata: Metadata = {
   title: "WhatsNow",
   description: "Start a WhatsApp chat without saving contacts",
+  keywords: metaKeywords
 };
+
+export const viewport: Viewport = {
+  themeColor: "#010203"
+}
 
 export default function RootLayout({
   children,
